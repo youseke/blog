@@ -9,6 +9,8 @@ class UserMailer < ActionMailer::Base
   def send_mail
     @greeting = "Hi"
 
-    mail to: "tohtetsu.choh@nts.ricoh.co.jp"
+    mail(:to => "xxxxxxxxxxxxxxx@nts.ricoh.co.jp",
+         :return_path => "tohtetsu.choh@nts.ricoh.co.jp"
+         )
   end
 end

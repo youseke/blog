@@ -32,7 +32,8 @@ Blog::Application.configure do
     :address => "staging"
   }
 
+  # config.action_mailer.raise_delivery_errors = true
 
-  #config.action_mailer.logger = nil
+  # config.action_mailer.logger = nil
 
 end

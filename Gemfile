@@ -41,6 +41,6 @@ end
 
 gem 'execjs'
 gem 'therubyracer'
-
-
 gem 'rspec-rails'
+
+gem 'mail-iso-2022-jp'

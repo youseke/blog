@@ -28,11 +28,7 @@ Blog::Application.configure do
   # Expands the lines which load the assets
   config.assets.debug = true
 
-  config.action_mailer.smtp_settings = {
-    :address => "staging"
-  }
-
-  # config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.raise_delivery_errors = true
 
   # config.action_mailer.logger = nil
 

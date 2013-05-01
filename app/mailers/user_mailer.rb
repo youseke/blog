@@ -1,13 +1,7 @@
 # -*- coding: utf-8 -*-
 class UserMailer < ActionMailer::Base
+
   default from: "choh@yasuharu.nsp.ricoh.co.jp", charset: "euc-jp"
-
-  # Subject can be set in your I18n file at config/locales/en.yml
-  # with the following lookup:
-  #
-  #   en.user_mailer.send.subject
-  #
-
 
   def send_mail
     subject = "こんにちは"

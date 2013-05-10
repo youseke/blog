@@ -7,7 +7,6 @@ class PostsController < ApplicationController
   end
 
   def create
-    #render text: params[:post].inspect
     @post=Post.new(params[:post])
 
     if @post.save
